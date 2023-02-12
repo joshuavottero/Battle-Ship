@@ -1,9 +1,15 @@
 import './App.css';
-import Test from ".//components/test";
+import Grid from ".//components/Grid";
 function App() {
   return (
     <div className="App">
-     <Test />
+
+     player board
+     <Grid />
+
+     cpu board
+     <Grid />
+     
     </div>
   );
 }
